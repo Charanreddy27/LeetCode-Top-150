@@ -8,9 +8,9 @@ public:
             nums[count] = nums[i];
             count++;
         }
-        for(int i = count;i<n;i++){
-            nums.erase(nums.begin()+i);
-        }
+        // for(int i = count;i<n;i++){
+        //     nums.erase(nums.begin()+i);
+        // }
         return count;
     }
 };
