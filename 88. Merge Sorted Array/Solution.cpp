@@ -21,6 +21,6 @@ public:
             res.push_back(nums2[j]);
             j++;k++;
         }
-        nums1 = res;
+        nums1 = res; // return
     }
 };
