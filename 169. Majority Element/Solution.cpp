@@ -8,6 +8,6 @@ public:
         for(auto c:mp){
             if(c.second > nums.size()/2) return c.first;
         }
-        return -1;
+        return -1; // returned
     }
 };
